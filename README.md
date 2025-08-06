@@ -2,7 +2,7 @@
 
 Este é um projeto simples feito com **HTML**, **CSS** e **JavaScript**, que permite adicionar nomes de amigos e realizar um sorteio aleatório para descobrir quem será o amigo secreto.
 
-[Clique aqui para acessar o projeto](https://eukevintt.github.io/challenge-amigo-secreto/)
+<a href="https://eukevintt.github.io/challenge-amigo-secreto/" target="_blank">Clique aqui para acessar o projeto</a>
 
 ## 💡 Funcionalidades
 
