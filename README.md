@@ -2,18 +2,19 @@
 
 Este é um projeto simples feito com **HTML**, **CSS** e **JavaScript**, que permite adicionar nomes de amigos e realizar um sorteio aleatório para descobrir quem será o amigo secreto.
 
+[Clique aqui para acessar o projeto](https://eukevintt.github.io/challenge-amigo-secreto/)
+
 ## 💡 Funcionalidades
 
-- ✅ Adicionar nomes de amigos  
-- ✅ Exibir lista de amigos adicionados  
-- ✅ Sortear aleatoriamente um amigo secreto  
+- ✅ Adicionar nomes de amigos
+- ✅ Exibir lista de amigos adicionados
+- ✅ Sortear aleatoriamente um amigo secreto
 - ✅ Feedback de validação (como campos vazios ou poucos nomes)
 
 ## 📷 Preview
 
 ![Preview do projeto](assets/tela1.png)
 ![Preview do projeto](assets/tela2.png)
-
 
 ## 🚀 Como usar
 
@@ -27,7 +28,7 @@ Este é um projeto simples feito com **HTML**, **CSS** e **JavaScript**, que per
 
    Você pode apenas clicar duas vezes no arquivo ou usar uma extensão de servidor local (como Live Server no VS Code).
 
-3. **Digite os nomes e clique em "Adicionar".**  
+3. **Digite os nomes e clique em "Adicionar".**
 4. **Quando estiver pronto, clique em "Sortear amigo".**
 
 ## 📁 Estrutura do Projeto
@@ -42,8 +43,8 @@ amigo-secreto/
 
 ## 🛠 Tecnologias
 
-- HTML5  
-- CSS3 (com fontes do Google Fonts)  
+- HTML5
+- CSS3 (com fontes do Google Fonts)
 - JavaScript Vanilla
 
 ## 📌 Requisitos
@@ -54,8 +55,8 @@ Nenhuma instalação necessária — apenas um navegador moderno.
 
 Esse projeto é ótimo para praticar:
 
-- Manipulação do DOM com JavaScript  
-- Funções, arrays e eventos  
+- Manipulação do DOM com JavaScript
+- Funções, arrays e eventos
 - Boas práticas de UX com validações simples
 
 ## ✨ Contribuição
