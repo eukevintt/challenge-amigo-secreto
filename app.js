@@ -5,12 +5,11 @@ function adicionarAmigo(){
 
     if(nome.trim() == '') {
         alert('Por favor, insira um nome.');
-    } 
-    
-    amigos.push(nome);
-    document.getElementById('amigo').value = '';
-
-    exibirAmigos(amigos);
+    } else {
+        amigos.push(nome);
+        document.getElementById('amigo').value = '';
+        exibirAmigos(amigos);
+    }
 }
 
 function exibirAmigos(amigos){
@@ -19,5 +18,16 @@ function exibirAmigos(amigos){
 
     for(let i = 0; i < amigos.length; i++){
         document.getElementById('listaAmigos').innerHTML += `<li>${amigos[i]}</li>`;
+    }
+}
+
+function sortearAmigo(){
+    if(amigos.length == 0){
+        alert('Adicione amigos para conseguir realizar o sorteio!');
+    } else if(amigos.length == 1){
+        alert('Adicione mais de uma pessoa para conseguir realizar o sorteio!');
+    } else {
+        amigoSorteado = Math.floor(Math.random() * amigos.length); 
+        document.getElementById('resultado').innerHTML = `<li>O amigo secreto sorteado é: ${amigos[amigoSorteado]}</li>`;
     }
 }
